@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Login - Smart Stock</title>
-    <link rel="stylesheet" href="stylepedidos.css" />
+    <link rel="stylesheet" href="../styles/stylepedidos.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -15,7 +15,7 @@
   <body>
     <main>
       <nav>
-        <img src="imagens/Logo Login.png" alt="logo" class="logo" />
+        <img src="../assets/imagens/Logo-Login.png" alt="logo" class="logo" />
         <ul class="nav-list">
           <li><a href="index.html">Pedidos</a></li>
           <li><a href="login.html">Estoque</a></li>

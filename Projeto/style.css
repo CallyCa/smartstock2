@@ -1,0 +1,129 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Poppins;
+}
+
+body {
+  position: relative;
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+}
+
+.login {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 30px 20px;
+  border-radius: 20px;
+  border: 8px solid #5d3c7b;
+  background-color: #fcf2ff;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 120px;
+}
+
+.logo {
+  width: 200px;
+  position: absolute;
+  top: 60px;
+  left: 110px;
+}
+
+.logo img {
+  width: 100%;
+  height: 100%;
+}
+
+.login-title {
+  font-size: 48px;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-style: italic;
+  margin-bottom: 20px;
+}
+
+.login-form {
+  width: 450px;
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  justify-content: center;
+  gap: 20px;
+}
+
+.login-actions {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 25px;
+  margin-top: 20px;
+}
+
+.login-form input {
+  width: 100%;
+  padding: 5px 10px;
+  border-radius: 10px;
+  background-color: #c0a6e1;
+  border: none;
+  font-size: 24px;
+}
+
+.login-form a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #000;
+  font-weight: 600;
+  text-align: right;
+  font-size: 13px;
+  padding-right: 5px;
+}
+
+.login-form input::placeholder {
+  color: #ffffffaa;
+}
+
+.login-actions button {
+  padding: 8px 10px;
+  text-align: center;
+  color: white;
+  border-radius: 10px;
+  border: none;
+  font-size: 20px;
+  background-color: #5d3c7b;
+  cursor: pointer;
+}
+
+.container-right {
+  height: 100vh;
+  width: 500px;
+  position: relative;
+  background-color: #5d3c7b;
+}
+
+.container-right img {
+  width: 550px;
+  position: absolute;
+  top: 50%;
+  left: -200px;
+  transform: translateY(-50%);
+}
+
+
+@media (max-width: 1536px) {
+  .container-right {
+    width: 400px;
+  }
+  .container-right img {
+    width: 400px;
+    left: -170px;
+  }
+}
